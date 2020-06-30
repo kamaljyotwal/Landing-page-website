@@ -10,13 +10,14 @@
 /* Desktop Laptop */
 @media (min-width: 1025px) and (max-width: 1440px) {
   #header {
-    padding: 0 60px;
+    padding: 0 50px;
     background-color: #eee;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
   }
 
   #header-img {
@@ -27,9 +28,10 @@
   nav > ul {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
+
     width: 30vw;
-    padding-right: 40px;
+    padding-right: 30px;
     list-style: none;
   }
   .nav-link {
@@ -38,6 +40,7 @@
     border: 1px solid #eee;
     padding: 15.5px;
     transition: background-color 300ms;
+    outline: none;
   }
   .nav-link:hover {
     background-color: #4caf50;
